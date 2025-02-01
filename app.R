@@ -1,6 +1,6 @@
 library(shiny)
 
-# Définition des recettes et paramètres par défaut avec pauses après Bloom et 1er versement
+# Définition des recettes et paramètres par défaut
 recipes_defaults <- list(
   "Lilo: Basic 1" = list(
     temp = 92, ratio = 16, coffee = 15, steps = list(
