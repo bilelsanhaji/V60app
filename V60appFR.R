@@ -68,6 +68,15 @@ recipes_defaults <- list(
       list(action = "4ème infusion", amount = 50, time = "2:25 - 2:40"),
       list(action = "Fin", amount = NA, time = "~3:00")
     )
+  ),
+  "L'Arbre à Café" = list(
+    temp = 94, ratio = 250/15, coffee = 15, 
+    steps = list(
+      list(action = "Bloom", amount = 45, time = "0:00 - 0:30"),
+      list(action = "1st infusion", amount = 155, time = "0:30 - 2:30"),
+      list(action = "2nd infusion", amount = 50, time = "2:30 - 3:00"),
+      list(action = "Fin", amount = NA, time = "~3:00")
+    )
   )
 )
 # UI
